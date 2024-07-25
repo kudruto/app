@@ -1,6 +1,6 @@
 window.Telegram.WebApp.expand();
 
-const ws = new WebSocket('wss://de25-94-131-123-13.ngrok-free.app/ws');
+const ws = new WebSocket('ws://localhost:8080');
 
 fetch('https://de25-94-131-123-13.ngrok-free.app/DataChecking', {
     method: 'POST',
